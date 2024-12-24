@@ -1,4 +1,4 @@
-function [a1, a0, r2] = Regress(x, y)
+function [a1, a0, r2] = regress(x, y)
     n = length(x);
     sumx = 0;
     sumy = 0;
